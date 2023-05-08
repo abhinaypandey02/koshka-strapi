@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "sign_up_pages",
+  "info": {
+    "singularName": "sign-up-page",
+    "pluralName": "sign-up-pages",
+    "displayName": "Sign Up Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.input"
+    },
+    "password": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.input"
+    },
+    "confirm_password": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.input"
+    }
+  }
+}

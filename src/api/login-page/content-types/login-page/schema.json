@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "login_pages",
+  "info": {
+    "singularName": "login-page",
+    "pluralName": "login-pages",
+    "displayName": "Login Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "displayName": "Input",
+      "type": "component",
+      "repeatable": false,
+      "component": "form.input"
+    },
+    "password": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.input"
+    },
+    "button_title": {
+      "type": "string"
+    },
+    "new_user": {
+      "type": "string"
+    },
+    "register": {
+      "type": "string"
+    }
+  }
+}
